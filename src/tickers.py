@@ -1,3 +1,0 @@
-TICKER_LIST = [
-    '^VIX'
-]

@@ -3,6 +3,8 @@ from prophet import Prophet
 import os
 
 def predict_all():
+    img_paths = []
+
     for ticker_filename in os.listdir("data/tickers"):
         f = os.path.join("data/tickers", ticker_filename)
         if os.path.isfile(f):
@@ -25,3 +27,6 @@ def predict_all():
             ax.set_xlim(simple_df['ds'].take([-100]), pd.to_datetime('now') + pd.DateOffset(days=28))
 
             fig1.savefig('data/analysis/' + ticker_filename + '.jpg')
+            img_paths.append('data/analysis/' + ticker_filename + '.jpg')
+
+    return img_paths

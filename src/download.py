@@ -1,8 +1,7 @@
 import yfinance as yf
-from tickers import TICKER_LIST
 import os
 
-def download_tickers(tickers: list):
+def download_tickers(tickers: str):
     # clear data/tickers and data/analysis
     for ticker_filename in os.listdir("data/tickers"):
         f = os.path.join("data/tickers", ticker_filename)
@@ -13,5 +12,9 @@ def download_tickers(tickers: list):
         if os.path.isfile(f):
             os.remove(f)
 
-    for ticker in TICKER_LIST:
+    for ticker in tickers.split("\n"):
         yf.Ticker(ticker).history(period='2y', interval='1d').to_csv(f'data/tickers/{ticker}.csv')
+
+    return "Downloaded!"
+
+# download_tickers(["EVN.AX"])
