@@ -1,8 +1,4 @@
-# jtpotato/stock-prediction
-```
-Started: 1 Dec 2023
-Codename: Otway
-```
+![](https://project-cards.jtpotatodev.workers.dev/?project=jtpotato/stock-prediction&started=1%20Dec%202023&codename=Otway)
 
 An experiment to see how well Facebook's Prophet can be used to predict stocks.
 
