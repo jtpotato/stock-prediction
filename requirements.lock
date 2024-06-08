@@ -9,3 +9,133 @@
 #   generate-hashes: false
 
 -e file:.
+appnope==0.1.4
+    # via ipykernel
+asttokens==2.4.1
+    # via stack-data
+attrs==23.2.0
+    # via cattrs
+    # via requests-cache
+beautifulsoup4==4.12.3
+    # via yfinance
+cattrs==23.2.3
+    # via requests-cache
+certifi==2024.6.2
+    # via requests
+charset-normalizer==3.3.2
+    # via requests
+comm==0.2.2
+    # via ipykernel
+debugpy==1.8.1
+    # via ipykernel
+decorator==5.1.1
+    # via ipython
+executing==2.0.1
+    # via stack-data
+frozendict==2.4.4
+    # via yfinance
+html5lib==1.1
+    # via yfinance
+idna==3.7
+    # via requests
+ipykernel==6.29.4
+    # via stock-prediction
+ipython==8.25.0
+    # via ipykernel
+jedi==0.19.1
+    # via ipython
+jupyter-client==8.6.2
+    # via ipykernel
+jupyter-core==5.7.2
+    # via ipykernel
+    # via jupyter-client
+lxml==5.2.2
+    # via yfinance
+matplotlib-inline==0.1.7
+    # via ipykernel
+    # via ipython
+multitasking==0.0.11
+    # via yfinance
+nest-asyncio==1.6.0
+    # via ipykernel
+numpy==1.26.4
+    # via pandas
+    # via yfinance
+packaging==24.0
+    # via ipykernel
+pandas==2.2.2
+    # via stock-prediction
+    # via yfinance
+parso==0.8.4
+    # via jedi
+peewee==3.17.5
+    # via yfinance
+pexpect==4.9.0
+    # via ipython
+platformdirs==4.2.2
+    # via jupyter-core
+    # via requests-cache
+    # via yfinance
+prompt-toolkit==3.0.46
+    # via ipython
+psutil==5.9.8
+    # via ipykernel
+ptyprocess==0.7.0
+    # via pexpect
+pure-eval==0.2.2
+    # via stack-data
+pygments==2.18.0
+    # via ipython
+pyrate-limiter==2.10.0
+    # via requests-ratelimiter
+python-dateutil==2.9.0.post0
+    # via jupyter-client
+    # via pandas
+pytz==2024.1
+    # via pandas
+    # via yfinance
+pyzmq==26.0.3
+    # via ipykernel
+    # via jupyter-client
+requests==2.32.3
+    # via requests-cache
+    # via requests-ratelimiter
+    # via yfinance
+requests-cache==1.2.0
+    # via yfinance
+requests-ratelimiter==0.6.0
+    # via yfinance
+six==1.16.0
+    # via asttokens
+    # via html5lib
+    # via python-dateutil
+    # via url-normalize
+soupsieve==2.5
+    # via beautifulsoup4
+stack-data==0.6.3
+    # via ipython
+tornado==6.4.1
+    # via ipykernel
+    # via jupyter-client
+traitlets==5.14.3
+    # via comm
+    # via ipykernel
+    # via ipython
+    # via jupyter-client
+    # via jupyter-core
+    # via matplotlib-inline
+typing-extensions==4.12.2
+    # via ipython
+tzdata==2024.1
+    # via pandas
+url-normalize==1.4.3
+    # via requests-cache
+urllib3==2.2.1
+    # via requests
+    # via requests-cache
+wcwidth==0.2.13
+    # via prompt-toolkit
+webencodings==0.5.1
+    # via html5lib
+yfinance==0.2.40
+    # via stock-prediction

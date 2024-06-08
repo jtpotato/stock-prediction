@@ -5,7 +5,11 @@ description = "Add your description here"
 authors = [
     { name = "Joel", email = "58995538+jtpotato@users.noreply.github.com" }
 ]
-dependencies = []
+dependencies = [
+    "ipykernel>=6.29.4",
+    "pandas>=2.2.2",
+    "yfinance[nospam]>=0.2.40",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
