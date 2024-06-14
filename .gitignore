@@ -3,5 +3,5 @@ __pycache__/
 venv/
 otway-model.pt
 *.csv
-scaler.save
+*.save
 archives/
