@@ -1,3 +1,7 @@
 data/
 __pycache__/
 venv/
+otway-model.pt
+*.csv
+scaler.save
+archives/
